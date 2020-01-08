@@ -1,0 +1,56 @@
+[2020-01-06 20:51:41] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')', expecting '{' in C:\xampp\htdocs\ProvaCBM\routes\web.php:15
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\ProvaCBM\vendor\laravel\lumen-framework\src\Routing\Router.php(62): call_user_func()
+#2 C:\xampp\htdocs\ProvaCBM\bootstrap\app.php(98): Laravel\Lumen\Routing\Router->group()
+#3 C:\xampp\htdocs\ProvaCBM\public\index.php(14): require('C:\\xampp\\htdocs...')
+#4 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ')', expecting '{' at C:\\xampp\\htdocs\\ProvaCBM\outes\\web.php:15)
+[stacktrace]
+#0 [internal function]: {closure}()
+#1 C:\\xampp\\htdocs\\ProvaCBM\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func()
+#2 C:\\xampp\\htdocs\\ProvaCBM\\bootstrap\\app.php(98): Laravel\\Lumen\\Routing\\Router->group()
+#3 C:\\xampp\\htdocs\\ProvaCBM\\public\\index.php(14): require('C:\\\\xampp\\\\htdocs...')
+#4 {main}
+"} 
+[2020-01-06 20:53:29] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')', expecting '{' in C:\xampp\htdocs\ProvaCBM\routes\web.php:15
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\ProvaCBM\vendor\laravel\lumen-framework\src\Routing\Router.php(62): call_user_func()
+#2 C:\xampp\htdocs\ProvaCBM\bootstrap\app.php(98): Laravel\Lumen\Routing\Router->group()
+#3 C:\xampp\htdocs\ProvaCBM\public\index.php(14): require('C:\\xampp\\htdocs...')
+#4 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ')', expecting '{' at C:\\xampp\\htdocs\\ProvaCBM\outes\\web.php:15)
+[stacktrace]
+#0 [internal function]: {closure}()
+#1 C:\\xampp\\htdocs\\ProvaCBM\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func()
+#2 C:\\xampp\\htdocs\\ProvaCBM\\bootstrap\\app.php(98): Laravel\\Lumen\\Routing\\Router->group()
+#3 C:\\xampp\\htdocs\\ProvaCBM\\public\\index.php(14): require('C:\\\\xampp\\\\htdocs...')
+#4 {main}
+"} 
+[2020-01-06 20:54:21] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')', expecting '{' in C:\xampp\htdocs\ProvaCBM\routes\web.php:15
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\ProvaCBM\vendor\laravel\lumen-framework\src\Routing\Router.php(62): call_user_func()
+#2 C:\xampp\htdocs\ProvaCBM\bootstrap\app.php(98): Laravel\Lumen\Routing\Router->group()
+#3 C:\xampp\htdocs\ProvaCBM\public\index.php(14): require('C:\\xampp\\htdocs...')
+#4 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ')', expecting '{' at C:\\xampp\\htdocs\\ProvaCBM\outes\\web.php:15)
+[stacktrace]
+#0 [internal function]: {closure}()
+#1 C:\\xampp\\htdocs\\ProvaCBM\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func()
+#2 C:\\xampp\\htdocs\\ProvaCBM\\bootstrap\\app.php(98): Laravel\\Lumen\\Routing\\Router->group()
+#3 C:\\xampp\\htdocs\\ProvaCBM\\public\\index.php(14): require('C:\\\\xampp\\\\htdocs...')
+#4 {main}
+"} 
+[2020-01-06 20:55:00] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected '$router' (T_VARIABLE), expecting ')' in C:\xampp\htdocs\ProvaCBM\routes\web.php:24
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\ProvaCBM\vendor\laravel\lumen-framework\src\Routing\Router.php(62): call_user_func()
+#2 C:\xampp\htdocs\ProvaCBM\bootstrap\app.php(98): Laravel\Lumen\Routing\Router->group()
+#3 C:\xampp\htdocs\ProvaCBM\public\index.php(14): require('C:\\xampp\\htdocs...')
+#4 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected '$router' (T_VARIABLE), expecting ')' at C:\\xampp\\htdocs\\ProvaCBM\outes\\web.php:24)
+[stacktrace]
+#0 [internal function]: {closure}()
+#1 C:\\xampp\\htdocs\\ProvaCBM\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func()
+#2 C:\\xampp\\htdocs\\ProvaCBM\\bootstrap\\app.php(98): Laravel\\Lumen\\Routing\\Router->group()
+#3 C:\\xampp\\htdocs\\ProvaCBM\\public\\index.php(14): require('C:\\\\xampp\\\\htdocs...')
+#4 {main}
+"} 
