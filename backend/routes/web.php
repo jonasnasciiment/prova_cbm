@@ -15,13 +15,13 @@
 /**  /@var Route $router */
 use Illuminate\Support\Facades\Route;
 
-$router->get("/viacep/{cep}", "CepController@getCep");
+
 
 
 $router->get("/api/enderecos", "EnderecoController@getAll");
 
 $router->group(['prefix' => "/api/endereco"], function() use ($router){
-
+    $router->get("/busca/{cep}", "CepController@getCep");
     $router->get("/{id}", "EnderecoController@get");
     $router->post("/", "EnderecoController@store");
     $router->put("/{id}", "EnderecoController@update");
