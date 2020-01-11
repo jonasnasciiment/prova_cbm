@@ -25,7 +25,6 @@ class EnderecoController extends BaseController
     }
 
 
-
     public function getAll()
     {
         $enderecos = $this->model->with('cidade.estado')->get();
@@ -55,7 +54,7 @@ class EnderecoController extends BaseController
         } catch (QueryException $e) {
 
             return response()->json(['error' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
-        } catch (\Exception $e){
+        } catch (\Exception $e) {
 
             return response()->json(['error' => 'Endereço não encontrado'], Response::HTTP_NOT_FOUND);
         }
@@ -78,7 +77,7 @@ class EnderecoController extends BaseController
     {
         try {
             $endereco = $this->model->find($id);
-            if($request->Logradouro){
+            if ($request->Logradouro) {
                 $endereco->Logradouro = $request->Logradouro;
             }
 
